@@ -1,0 +1,115 @@
+@import url("https://cdn.jsdelivr.net/gh/mortezaom/google-sans-cdn@master/fonts.css");
+
+* {
+	margin: 0;
+	padding: 0;
+
+	box-sizing: none;
+	list-style: none;
+}
+
+html {
+	font-family: Google Sans, Inter, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: 300;
+	letter-spacing: 0.05rem;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+
+	min-height: 100vh;
+
+	background: #f0f0f0;
+}
+
+h0,
+h1,
+p {
+	text-align: center;
+}
+
+h0 {
+	font-size: 4rem;
+	line-height: 4rem;
+	color: black;
+	margin-bottom: 4rem;
+}
+
+h1 {
+	font-size: 3.2rem;
+	line-height: 3.2rem;
+	color: black;
+	margin-bottom: 2.4rem;
+}
+
+p {
+	font-size: 1.6rem;
+	line-height: 3.2rem;
+	color: #666;
+}
+
+header p {
+	margin-bottom: 3.2rem;
+}
+
+section p {
+	margin-bottom: 1.6rem;
+}
+
+wrapper {
+	margin-left: auto;
+	margin-right: auto;
+
+	width: 90vw;
+	max-width: 80rem;
+}
+
+header,
+section {
+	margin: 8rem 0;
+	width: 100%;
+
+	display: flex;
+	flex-flow: column wrap;
+	align-items: center;
+}
+
+section companies {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+section companies img {
+	padding: 0 2rem;
+}
+
+a.button,
+a.button:visited {
+	padding: 1rem 2rem;
+
+	display: inline-flex;
+	flex-flow: column wrap;
+	justify-content: center;
+
+	font-size: 1.6rem;
+	font-weight: 500;
+	background: black;
+	color: white;
+	text-decoration: none;
+	box-shadow: 0 0.3259259164px 0.7333333492px 0 rgba(0, 0, 0, 0.12), 0 1.5407407284px 2.8666665554px 0 rgba(0, 0, 0, 0.07), 0 4px 9px 0 rgba(0, 0, 0, 0.05);
+	border-radius: 1rem;
+	transition: all 0.2s ease;
+}
+
+a.button:hover {
+	background: #333;
+	color: white;
+	text-decoration: none;
+}
