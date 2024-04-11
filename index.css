@@ -41,8 +41,8 @@ h0 {
 }
 
 h1 {
-	font-size: 3.2rem;
-	line-height: 3.2rem;
+	font-size: 4rem;
+	line-height: 4rem;
 	color: black;
 	margin-bottom: 2.4rem;
 }
@@ -73,7 +73,6 @@ header,
 section {
 	margin: 8rem 0;
 	width: 100%;
-
 	display: flex;
 	flex-flow: column wrap;
 	align-items: center;
@@ -95,8 +94,9 @@ a.button:visited {
 	padding: 1rem 2rem;
 
 	display: inline-flex;
-	flex-flow: column wrap;
+	flex-flow: row wrap;
 	justify-content: center;
+	align-items: center;
 
 	font-size: 1.6rem;
 	font-weight: 500;
@@ -112,4 +112,10 @@ a.button:hover {
 	background: #333;
 	color: white;
 	text-decoration: none;
+}
+
+a.button span {
+	margin-right: 1rem;
+
+	color: lightgreen;
 }
